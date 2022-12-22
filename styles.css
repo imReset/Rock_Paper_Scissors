@@ -1,0 +1,59 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(8, 8, 50);
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choice {
+  display: block;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+}
+
+#rock {
+  background-color: gray;
+}
+
+#rock:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+#paper {
+  background-color: white;
+}
+
+#paper:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+#scissors {
+  background-color: rgb(255, 0, 0);
+}
+
+#scissors:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+#result-display {
+  font-size: 32px;
+  font-weight: bold;
+}
